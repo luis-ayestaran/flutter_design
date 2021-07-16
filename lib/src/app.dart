@@ -12,9 +12,10 @@ class DesignApp extends StatelessWidget {
       title: 'Material App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+
         backgroundColor: Colors.white,
       ),
-      initialRoute: 'basic_design',
+      initialRoute: 'home_screen',
       routes: getApplicationRoutes(),
     );
   }

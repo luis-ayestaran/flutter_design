@@ -18,7 +18,7 @@ class BasicDesignScreen extends StatelessWidget {
           ButtonBar(),
 
           //Description
-          Description()
+          Description(),
           
 
         ],

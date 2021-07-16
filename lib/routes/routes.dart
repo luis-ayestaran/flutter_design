@@ -7,7 +7,9 @@ typedef RoutingMap = Map<String, WidgetBuilder>;
 RoutingMap getApplicationRoutes() {
 
   return {
-    'basic_design': ( _ ) => BasicDesignScreen(),
+    'home_screen': ( BuildContext context ) => BasicDesignScreen(),
+    //'call_screen': ( BuildContext context ) => CallScreen(),
+
   };
 
 }
